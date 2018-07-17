@@ -3,7 +3,6 @@ const url = 'data.json';
 fetch(url)
   .then(function(response) {
     if (!response.ok) {
-      return
       throw Error(response.statusText);
     }
     // Read the response as json.
@@ -12,7 +11,7 @@ fetch(url)
   .then(function(data) { 
   // Do stuff with the JSON
   // console.log(data);
-    createHtml(data)
+    createHtml(data);
   })
   .catch(function(error) {
     console.log('Looks like there was a problem: \n', error);

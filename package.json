@@ -11,8 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^5.1.0",
-    "pre-commit": "^1.2.2"
+    "eslint": "^5.1.0"
   },
   "dependencies": {}
 }
