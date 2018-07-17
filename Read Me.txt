@@ -1,0 +1,7 @@
+
+
+The ESLint rules are inside .eslintrc.json file.
+
+To be able to see this hidden file, you need to show hidden files in Finder with this short cut:
+
+Shift + Cmd + .
